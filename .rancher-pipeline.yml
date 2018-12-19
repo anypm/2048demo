@@ -1,0 +1,10 @@
+stages:
+- name: build-stage
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: 2048demo-image-test
+      pushRemote: true
+      registry: http://116.85.13.70
+timeout: 60
