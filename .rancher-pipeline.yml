@@ -5,5 +5,6 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: 2048demo-image-test
-      registry: index.docker.io
+      pushRemote: true
+      registry: 116.85.13.70
 timeout: 60
