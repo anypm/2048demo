@@ -4,6 +4,6 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: 2048demo-image-test
+      tag: 2048-image-demo
       registry: index.docker.io
 timeout: 60
