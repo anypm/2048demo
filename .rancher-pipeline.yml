@@ -10,5 +10,5 @@ stages:
 - name: deploy-stage
   steps:
   - applyYamlConfig:
-      path: ./.rancher-pipeline.yml
+      path: ./deployment.yaml
 timeout: 60
