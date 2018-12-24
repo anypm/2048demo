@@ -30,7 +30,7 @@ spec:
       imagePullSecrets:
       - name: quayio-anypm
       containers:
-      - name: maven
+      - name: 2048
         image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
         ports:
         - containerPort: 80
