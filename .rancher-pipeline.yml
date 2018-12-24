@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: 2048demox
+      tag: 2048demox:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
       registry: quay.io/anypm
 - name: deploy-stage
