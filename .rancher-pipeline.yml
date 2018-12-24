@@ -6,5 +6,5 @@ stages:
       buildContext: .
       tag: 2048-image-demo
       pushRemote: true
-      registry: index.docker.io
+      registry: quay.io/anypm/2048demo
 timeout: 60
