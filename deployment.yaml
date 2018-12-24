@@ -28,7 +28,7 @@ spec:
         app: 2048demox
     spec:
       imagePullSecrets:
-      - name: pipeline-docker-registry
+      - name: quayio-anypm
       containers:
       - name: maven
         image: ${CICD_IMAGE}:${CICD_EXECUTION_SEQUENCE}
